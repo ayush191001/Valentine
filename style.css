@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff6f91, #ff8fab);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 30px 25px;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 12px;
+}
+
+.warning {
+  font-size: 1.05rem;
+  margin-bottom: 25px;
+}
+
+.small {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+button {
+  padding: 12px 26px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#startBtn {
+  background: white;
+  color: #ff4f81;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+#yesBtn {
+  background: #4CAF50;
+  color: white;
+}
+
+#noBtn {
+  background: #ff4d4d;
+  color: white;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+/* PHOTO STYLING */
+.photo {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
